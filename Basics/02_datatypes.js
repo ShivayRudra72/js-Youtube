@@ -8,11 +8,12 @@ console.log(3
 
 console.log("rudra"); // this is the best way to write js as compared to above ......
 
-// WE DISCUSS ABOUT THE DATATYPES---->
+
 let name = "saurabh";
 let age = 22;
 let isLoggedIn = false;
 
+// WE DISCUSS ABOUT THE DATATYPES---->
 // <--- THIS ALL IS PRIMITIVE DATATYPES---->
 // 1.number : 2 to power 53 or 2^53
 
