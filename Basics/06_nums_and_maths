@@ -1,0 +1,55 @@
+// +++++++++++++++++++++++ 'NUMBER' ++++++++++++++++++++++++ //
+
+// ye humko direct string degaa : but we want (number:..)
+const score = 100
+console.log(score); // 100
+
+//2nd approach
+const balance = new Number(100)
+console.log(balance); // [Number: 100]
+
+// string
+console.log(balance.toString()); //100
+
+// purpose : we want give decimal number as our choice
+// this can be used in precision value : 100.000 or this can be used when we building our E-Commerce project
+console.log(balance.toFixed(3)); // this can be used as precision value : 100.000 or this can be used when we building our project
+
+// toPrecision
+// given decimal value : change in precision value
+const otherName = 123.890
+console.log(otherName.toPrecision(3)); //124
+
+//uses of currency
+const hundreads = 1000000
+console.log(hundreads.toLocaleString('en-IN')); // 10,00,000
+
+// +++++++++++++++++++++++ 'MATHS' ++++++++++++++++++++++++ //
+// detailed libraries ke liye visit : inspect -- > 'console'
+console.log(Math);
+
+// convert negative to positive
+console.log(Math.abs(-4)); //4
+
+// it can take round off value
+console.log(Math.round(23.6)); // 24
+ 
+// it can take top value
+console.log(Math.ceil(34.5)); // 35
+
+// it can take 'bottom-value'
+console.log(Math.floor(7.88)); // 7
+
+//check max or min
+console.log(Math.max(3,5,6,7)); // 7
+console.log(Math.min(2,4,5,9)); // 2
+
+
+
+
+
+
+
+
+
+
