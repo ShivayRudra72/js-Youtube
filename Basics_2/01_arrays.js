@@ -24,7 +24,7 @@ dev.pop() // in pop : last element will be deleted
 console.log(dev); // [ 'spiderman', 'captain', 'furious', 'thor' ]
 
 
-dev.unshift(900) // it can add in 900 on the position of : "900"
+dev.unshift(900) // it can add 900 in the 1st position of : "900"
 console.log(dev); // [ 900, 'spiderman', 'captain', 'furious', 'thor' ]
 
 dev.shift()
