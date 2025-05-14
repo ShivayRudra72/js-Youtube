@@ -53,4 +53,38 @@ console.log(loginUserName());
 
 //console.log(loginUserName("rudrasaini"));
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+// in most of the cases on e-commerce platform user add no of items and cancel it and add it more no of items 
+// in that scnerio we use the method ----------->
+
+function calculatedCartPrice(val1,val2,...num1){
+    return num1
+}
+console.log(calculatedCartPrice(200,500,4000,5000)); // 4000 5000
+
+
+// how the object :: use in function ---> let's see
+const user = {
+    email : "rudrasaini@gamil.com",
+    dob : "7 july 2000",
+    gender : "male"
+}
+
+function handleuser(anyobject){
+    console.log(`the email id of a user is ${anyobject.email} and dob is ${anyobject.dob} and gender is ${anyobject.gender}`); 
+    // the above aswer : he email id of a user is rudrasaini@gamil.com and dob is 7 july 2000 and gender is male
+}
+handleuser(user)
+
+// how function use in :: "ARRAYS" --------->
+const newArr = [45,34,23,25]
+function returnsecondvalue(getarray){
+    return getarray[1]
+}
+
+console.log(returnsecondvalue(newArr)); // 34
+console.log(returnsecondvalue([45,34,23,25])); // 34
+
+
+
 
