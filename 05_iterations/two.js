@@ -1,10 +1,3 @@
-// Array mai STRING aise daalte haii
-// [" ", " ", " "," ", " ", " ", " ", " "] 
-
-// Array mai OBJECT aise daalte haii
-// [{ }, { }, { }, { }, { }, { }]
-
-
 // USES OF WHILE LOOP
 
 let index = 0
